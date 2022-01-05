@@ -1,0 +1,20 @@
+rbot:
+    joint_state_controller:
+        type: joint_state_controller/JointStateController
+        publish_rate: 100
+
+    fWheel_bc_position_controller:
+        type: effort_controllers/JointPositionController
+        joint: fWheel_bc
+        pid: {p: 0.01, i: 0.0, d: 0.0}
+
+    r_rWheel_bc_position_controller:
+        type: effort_controllers/JointPositionController
+        joint: r_rWheel_bc
+        pid: {p: 0.01, i: 0.0, d: 0.0}
+
+    l_rWheel_bc_position_controller:
+        type: effort_controllers/JointPositionController
+        joint: l_rWheel_bc
+        pid: {p: 0.01, i: 0.0, d: 0.0}
+
