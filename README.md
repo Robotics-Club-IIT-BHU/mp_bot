@@ -124,7 +124,7 @@ a.Airflow (CFD-computational fluid dynamics): Simulated the  trajectories of air
 
 b.Stress analysis (FEA-finite element analysis): To ensure that the main body or wheels do not deform/break due to the weight of other components present inside or when it (by mistake) collides with any object/wall / human interaction.
 
-<p float="center">
+<p float="left">
   <img src="https://user-images.githubusercontent.com/78342516/152428330-dc7b0d41-897d-43df-a612-23594eee16fc.png" width="500" />
   <img src="https://user-images.githubusercontent.com/78342516/152428359-8a34a2b1-3949-44f9-a6a1-315e1bffa312.png" width="500" /> 
 </p>
